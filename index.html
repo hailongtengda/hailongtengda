@@ -1,24 +1,44 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Beijing Hailong Tengda Labor Service Co., Ltd. - Professional HR services, labor solutions, and mobile app management platform for global markets.">
-    <meta name="keywords" content="labor service, HR services, business consulting, mobile app, management platform, China">
+    <meta name="description" content="Beijing Hailong Tengda Labor Service Co., Ltd. - Professional labor services, HR management solutions, and mobile app management for businesses worldwide.">
+    <meta name="keywords" content="labor service, HR management, consulting, training, Beijing, China, mobile app, business solutions">
     <meta name="author" content="Beijing Hailong Tengda Labor Service Co., Ltd.">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Hailong Tengda - Professional Labor Services & Mobile App Platform">
-    <meta property="og:description" content="Leading provider of HR services, labor solutions, and mobile app management platform for Western markets.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Beijing Hailong Tengda Labor Service Co., Ltd.">
+    <meta property="og:description" content="Professional labor services, HR management solutions, and mobile app management for businesses worldwide.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://hailongtengda.com">
-    <meta property="og:image" content="images/logo.png">
+    <meta property="og:image" content="images/og-image.png">
+    
+    <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Hailong Tengda - Professional Labor Services & Mobile App Platform">
-    <meta name="twitter:description" content="Leading provider of HR services, labor solutions, and mobile app management platform for Western markets.">
+    <meta name="twitter:title" content="Beijing Hailong Tengda Labor Service Co., Ltd.">
+    <meta name="twitter:description" content="Professional labor services, HR management solutions, and mobile app management for businesses worldwide.">
+    
+    <!-- Canonical URL -->
     <link rel="canonical" href="https://hailongtengda.com">
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-    <title>Hailong Tengda - Professional Labor Services & Mobile App Platform</title>
-    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Beijing Hailong Tengda Labor Service Co., Ltd. | Professional Labor Services</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -26,11 +46,11 @@
         "name": "Beijing Hailong Tengda Labor Service Co., Ltd.",
         "url": "https://hailongtengda.com",
         "logo": "https://hailongtengda.com/images/logo.svg",
-        "description": "Professional labor service company providing HR services, business consulting, and mobile app management solutions.",
+        "description": "Professional labor services, HR management solutions, and mobile app management for businesses worldwide.",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Room 208, 2nd Floor, Building 1, Courtyard 1, 400 meters south of the gas station in Dashiling Village, Mujia Yu Town, Miyun District",
-            "addressLocality": "Beijing",
+            "streetAddress": "Room 208, 2nd Floor, Building 1, Courtyard 1, 400 meters south of the gas station in Dashiling Village",
+            "addressLocality": "Mujiayyu Town, Miyun District",
             "addressRegion": "Beijing",
             "postalCode": "101500",
             "addressCountry": "CN"
@@ -46,142 +66,193 @@
 <body>
     <!-- Loader -->
     <div class="loader">
-        <div class="spinner"></div>
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>Loading...</p>
+        </div>
     </div>
 
-    <!-- Navigation -->
-    <nav class="navbar" role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo" aria-label="Hailong Tengda Home">
-                <img src="images/logo.svg" alt="Hailong Tengda Logo">
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <svg viewBox="0 0 200 200" width="60" height="60">
+                    <circle cx="100" cy="100" r="95" fill="#1a2a4a"/>
+                    <circle cx="100" cy="100" r="88" fill="none" stroke="#c9a959" stroke-width="3"/>
+                    <text x="100" y="115" font-family="Montserrat" font-size="48" font-weight="bold" fill="#c9a959" text-anchor="middle">HT</text>
+                </svg>
+                <div class="logo-text">
+                    Hailong Tengda
+                    <span>Labor Service</span>
+                </div>
             </a>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link active">Home</a></li>
-                <li><a href="services.html" class="nav-link">Services</a></li>
-                <li><a href="culture.html" class="nav-link">Culture</a></li>
-                <li><a href="news.html" class="nav-link">News</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="mobile-menu-btn" aria-label="Toggle menu" role="button" tabindex="0">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="culture.html" class="nav-link">Culture</a></li>
+                    <li><a href="news.html" class="nav-link">News</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
         </div>
-    </nav>
+    </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-background"></div>
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
         <div class="hero-particles"></div>
+        
         <div class="hero-content">
-            <h1 class="hero-title">Hailong Tengda</h1>
-            <p class="hero-subtitle">Professional Labor Services & Mobile App Solutions</p>
-            <p class="hero-description">Leading provider of comprehensive labor services, business consulting, and innovative mobile application management platform serving global markets with excellence and reliability.</p>
+            <div class="hero-badge">Welcome to Excellence</div>
+            <h1 class="hero-title">Leading <span>Labor Services</span> & Mobile Solutions</h1>
+            <p class="hero-subtitle">Empowering businesses with professional labor services, innovative mobile management applications, and comprehensive business solutions for the global market.</p>
             <div class="hero-buttons">
-                <a href="services.html" class="btn btn-primary">Explore Services</a>
-                <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                <a href="services.html" class="btn btn-primary">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    Explore Services
+                </a>
+                <a href="contact.html" class="btn btn-secondary">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm15 7h-6m-5 4h6m-5-6v6"/></svg>
+                    Contact Us
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Services Overview -->
-    <section class="section section-light">
+    <!-- Services Section -->
+    <section class="section">
         <div class="container">
-            <div class="section-title animate-on-scroll">
-                <h2>Our Services</h2>
-                <p>Comprehensive solutions tailored to meet your business needs with professional expertise and global standards.</p>
+            <div class="section-header scroll-animate">
+                <span class="section-badge">Our Services</span>
+                <h2 class="section-title">Comprehensive Business Solutions</h2>
+                <p class="section-subtitle">We provide a wide range of professional services designed to meet the diverse needs of modern businesses.</p>
             </div>
+            
             <div class="services-grid">
-                <article class="service-card animate-on-scroll">
+                <div class="service-card scroll-animate delay-100">
                     <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zm13 0l-2.5-1.5L22 7l-3-2-2 1-3 2 1 2.5"/></svg>
                     </div>
-                    <h3>HR Services</h3>
-                    <p>Professional human resources services excluding recruitment agencies and labor dispatch, focusing on workforce management and development solutions.</p>
-                </article>
-                <article class="service-card animate-on-scroll">
+                    <h3>HR Management</h3>
+                    <p>Complete human resources solutions including recruitment, training, performance management, and employee development programs tailored to your business needs.</p>
+                </div>
+                
+                <div class="service-card scroll-animate delay-200">
                     <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
                     </div>
                     <h3>Labor Services</h3>
-                    <p>Comprehensive labor solutions excluding dispatch services, providing skilled workforce for various industries and business requirements.</p>
-                </article>
-                <article class="service-card animate-on-scroll">
+                    <p>Professional labor services excluding labor dispatch, providing skilled workforce solutions for various industries and business operations.</p>
+                </div>
+                
+                <div class="service-card scroll-animate delay-300">
                     <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                    </div>
-                    <h3>Business Consulting</h3>
-                    <p>Expert management consulting and strategic advisory services to optimize your business operations and drive growth.</p>
-                </article>
-                <article class="service-card animate-on-scroll">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-                    </div>
-                    <h3>Information Consulting</h3>
-                    <p>Professional information and advisory services (excluding licensed information consulting) for informed decision-making.</p>
-                </article>
-                <article class="service-card animate-on-scroll">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                    </div>
-                    <h3>Market Research</h3>
-                    <p>Comprehensive market analysis and research services to understand trends and opportunities in your target markets.</p>
-                </article>
-                <article class="service-card animate-on-scroll">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 14l9-5-9-5-9 5 9 5zM12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
                     </div>
                     <h3>Business Training</h3>
-                    <p>Professional development programs (excluding licensed education and vocational training) to enhance team capabilities.</p>
-                </article>
-            </div>
-            <div class="text-center mt-4">
-                <a href="services.html" class="btn btn-primary">View All Services</a>
+                    <p>Professional business training programs (excluding licensed vocational training) designed to enhance workforce skills and organizational capabilities.</p>
+                </div>
+                
+                <div class="service-card scroll-animate delay-400">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                    </div>
+                    <h3>Management Consulting</h3>
+                    <p>Expert management consulting services to optimize your business operations, improve efficiency, and drive sustainable growth.</p>
+                </div>
+                
+                <div class="service-card scroll-animate delay-500">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+                    </div>
+                    <h3>Mobile App Solutions</h3>
+                    <p>Innovative mobile management applications available on Google Play and App Store, featuring HR tools, workforce management, and business analytics.</p>
+                </div>
+                
+                <div class="service-card scroll-animate delay-600">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+                    </div>
+                    <h3>Housekeeping & Cleaning</h3>
+                    <p>Professional housekeeping and cleaning services for residential and commercial properties, maintaining highest standards of cleanliness.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Mobile App Section -->
-    <section class="section section-dark">
+    <!-- Features Section -->
+    <section class="section section-light">
         <div class="container">
-            <div class="app-showcase">
-                <div class="app-content animate-on-scroll">
-                    <h3>Mobile Management Application</h3>
-                    <p>Our innovative mobile application platform is available on Google Play and Apple App Store, providing powerful tools for workforce management, business operations, and real-time monitoring. Designed with modern UI/UX principles to deliver seamless experience across all devices.</p>
-                    <div class="app-features">
-                        <div class="app-feature">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            <span>HR Management</span>
+            <div class="features-container">
+                <div class="features-content scroll-animate-left">
+                    <span class="section-badge">Why Choose Us</span>
+                    <h2>Excellence in Every Service We Provide</h2>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                         </div>
-                        <div class="app-feature">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            <span>Real-time Analytics</span>
-                        </div>
-                        <div class="app-feature">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            <span>Cloud Integration</span>
-                        </div>
-                        <div class="app-feature">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                            <span>Secure Data</span>
+                        <div class="feature-content">
+                            <h4>Professional Excellence</h4>
+                            <p>Years of experience delivering top-quality services to businesses of all sizes across multiple industries.</p>
                         </div>
                     </div>
-                    <div class="mt-4">
-                        <a href="services.html#mobile-app" class="btn btn-primary">Learn More</a>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Innovation & Technology</h4>
+                            <p>Cutting-edge mobile applications and digital solutions to streamline your business operations.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Global Standards</h4>
+                            <p>Services meeting international quality standards, compliance requirements, and best practices.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <div class="feature-content">
+                            <h4>24/7 Support</h4>
+                            <p>Round-the-clock customer support ensuring your business needs are always met promptly.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="app-visual animate-on-scroll">
-                    <div class="app-phone">
-                        <div class="app-phone-screen">
-                            <div style="padding: 20px; text-align: center;">
-                                <h4 style="color: #00a0e9; margin-bottom: 15px;">Hailong Tengda</h4>
-                                <div style="background: #f0f0f0; height: 60px; margin-bottom: 10px; border-radius: 8px;"></div>
-                                <div style="background: #f0f0f0; height: 60px; margin-bottom: 10px; border-radius: 8px;"></div>
-                                <div style="background: #f0f0f0; height: 60px; margin-bottom: 10px; border-radius: 8px;"></div>
-                                <div style="background: #00a0e9; color: white; padding: 15px; border-radius: 8px; margin-top: 20px;">Dashboard</div>
-                            </div>
-                        </div>
+                
+                <div class="features-image scroll-animate-right">
+                    <div class="features-image-wrapper">
+                        <svg viewBox="0 0 600 400" width="100%" height="100%">
+                            <defs>
+                                <linearGradient id="imgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#1a2a4a"/>
+                                    <stop offset="100%" style="stop-color:#2c3e50"/>
+                                </linearGradient>
+                            </defs>
+                            <rect width="600" height="400" fill="url(#imgGrad1)" rx="20"/>
+                            <circle cx="300" cy="200" r="100" fill="none" stroke="#c9a959" stroke-width="3"/>
+                            <circle cx="300" cy="200" r="80" fill="none" stroke="#c9a959" stroke-width="2" opacity="0.5"/>
+                            <text x="300" y="210" font-family="Montserrat" font-size="48" font-weight="bold" fill="#c9a959" text-anchor="middle">HT</text>
+                            <text x="300" y="350" font-family="Open Sans" font-size="16" fill="#e8e8e8" text-anchor="middle">Excellence in Service</text>
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -192,19 +263,19 @@
     <section class="stats-section">
         <div class="container">
             <div class="stats-grid">
-                <div class="stat-item animate-on-scroll">
+                <div class="stat-item scroll-animate delay-100">
                     <div class="stat-number" data-target="500">0</div>
-                    <div class="stat-label">Happy Clients</div>
-                </div>
-                <div class="stat-item animate-on-scroll">
-                    <div class="stat-number" data-target="1000">0</div>
                     <div class="stat-label">Projects Completed</div>
                 </div>
-                <div class="stat-item animate-on-scroll">
-                    <div class="stat-number" data-target="50">0</div>
-                    <div class="stat-label">Expert Team Members</div>
+                <div class="stat-item scroll-animate delay-200">
+                    <div class="stat-number" data-target="200">0</div>
+                    <div class="stat-label">Happy Clients</div>
                 </div>
-                <div class="stat-item animate-on-scroll">
+                <div class="stat-item scroll-animate delay-300">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Team Members</div>
+                </div>
+                <div class="stat-item scroll-animate delay-400">
                     <div class="stat-number" data-target="10">0</div>
                     <div class="stat-label">Years Experience</div>
                 </div>
@@ -212,62 +283,141 @@
         </div>
     </section>
 
-    <!-- Additional Services -->
-    <section class="section section-light">
+    <!-- Mobile App Section -->
+    <section class="section app-section">
         <div class="container">
-            <div class="section-title animate-on-scroll">
-                <h2>More Services</h2>
-                <p>Beyond our core offerings, we provide additional professional services to support your business operations.</p>
+            <div class="app-container">
+                <div class="app-content scroll-animate-left">
+                    <span class="section-badge" style="background: #c9a959; color: #1a2a4a;">Mobile Solutions</span>
+                    <h2>Powerful <span>Mobile Management</span> Applications</h2>
+                    <p>Take control of your business operations with our feature-rich mobile applications available on Google Play and App Store. Streamline HR processes, manage workforce, and access real-time analytics on the go.</p>
+                    
+                    <div class="app-features">
+                        <div class="app-feature">
+                            <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            <span>HR Management & Employee Tracking</span>
+                        </div>
+                        <div class="app-feature">
+                            <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            <span>Workforce Scheduling & Time Management</span>
+                        </div>
+                        <div class="app-feature">
+                            <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            <span>Business Analytics & Reporting</span>
+                        </div>
+                        <div class="app-feature">
+                            <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            <span>Real-time Notifications & Updates</span>
+                        </div>
+                    </div>
+                    
+                    <div class="app-buttons">
+                        <a href="#" class="store-button" title="Download on Google Play">
+                            <svg viewBox="0 0 24 24" fill="#000">
+                                <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 010 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/>
+                            </svg>
+                            <div class="store-button-content">
+                                <div class="store-button-label">Get it on</div>
+                                <div class="store-button-title">Google Play</div>
+                            </div>
+                        </a>
+                        
+                        <a href="#" class="store-button" title="Download on App Store">
+                            <svg viewBox="0 0 24 24" fill="#000">
+                                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                            </svg>
+                            <div class="store-button-content">
+                                <div class="store-button-label">Download on the</div>
+                                <div class="store-button-title">App Store</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="app-preview scroll-animate-right">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <svg viewBox="0 0 24 24"><path d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+                            <p>Mobile App<br>Preview</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="services-grid">
-                <article class="service-card animate-on-scroll">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header scroll-animate">
+                <span class="section-badge">Latest Updates</span>
+                <h2 class="section-title">Company News & Insights</h2>
+                <p class="section-subtitle">Stay informed about our latest developments, industry insights, and company updates.</p>
+            </div>
+            
+            <div class="news-grid">
+                <article class="news-card scroll-animate delay-100">
+                    <div class="news-image">
+                        <div class="news-date">Jan 15, 2026</div>
                     </div>
-                    <h3>Housekeeping Services</h3>
-                    <p>Professional domestic and commercial housekeeping services to maintain clean and organized spaces.</p>
+                    <div class="news-content">
+                        <span class="news-category">Announcement</span>
+                        <h3>Launch of New Mobile Management Platform</h3>
+                        <p>We are excited to announce the launch of our revolutionary mobile management platform designed for modern enterprises.</p>
+                        <a href="news.html" class="news-link">
+                            Read More
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        </a>
+                    </div>
                 </article>
-                <article class="service-card animate-on-scroll">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                
+                <article class="news-card scroll-animate delay-200">
+                    <div class="news-image">
+                        <div class="news-date">Jan 10, 2026</div>
                     </div>
-                    <h3>Cleaning Services</h3>
-                    <p>Comprehensive cleaning solutions for residential, commercial, and industrial properties.</p>
+                    <div class="news-content">
+                        <span class="news-category">Industry Insights</span>
+                        <h3>Trends in Modern Labor Management</h3>
+                        <p>Explore the latest trends shaping the labor management industry and how businesses can adapt to changing landscapes.</p>
+                        <a href="news.html" class="news-link">
+                            Read More
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        </a>
+                    </div>
                 </article>
-                <article class="service-card animate-on-scroll">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                
+                <article class="news-card scroll-animate delay-300">
+                    <div class="news-image">
+                        <div class="news-date">Jan 05, 2026</div>
                     </div>
-                    <h3>Landscape Engineering</h3>
-                    <p>Professional landscape design and construction services for outdoor spaces and gardens.</p>
-                </article>
-                <article class="service-card animate-on-scroll">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                    <div class="news-content">
+                        <span class="news-category">Company Update</span>
+                        <h3>Expanding Services to Global Markets</h3>
+                        <p>Beijing Hailong Tengda announces strategic expansion plans to serve international clients with localized solutions.</p>
+                        <a href="news.html" class="news-link">
+                            Read More
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        </a>
                     </div>
-                    <h3>Loading & Unloading</h3>
-                    <p>Efficient material handling services for warehouses, construction sites, and logistics operations.</p>
-                </article>
-                <article class="service-card animate-on-scroll">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
-                    </div>
-                    <h3>Building Materials</h3>
-                    <p>Quality construction materials supply for various building and infrastructure projects.</p>
                 </article>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="section section-dark">
-        <div class="container text-center">
-            <div class="section-title animate-on-scroll">
-                <h2>Partner With Us</h2>
-                <p>Join hundreds of satisfied clients who trust Hailong Tengda for their business needs. Let us help you achieve your goals.</p>
-            </div>
-            <div class="animate-on-scroll">
-                <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content scroll-animate">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Partner with Beijing Hailong Tengda Labor Service Co., Ltd. and experience excellence in professional services and innovative solutions.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">
+                        Get Started Today
+                    </a>
+                    <a href="services.html" class="btn btn-outline">
+                        View All Services
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -277,42 +427,70 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <img src="images/logo.svg" alt="Hailong Tengda">
-                    <p>Beijing Hailong Tengda Labor Service Co., Ltd. - Your trusted partner for professional labor services and innovative mobile solutions.</p>
+                    <div class="footer-logo">
+                        <svg viewBox="0 0 200 200" width="50" height="50">
+                            <circle cx="100" cy="100" r="95" fill="#1a2a4a"/>
+                            <circle cx="100" cy="100" r="88" fill="none" stroke="#c9a959" stroke-width="3"/>
+                            <text x="100" y="115" font-family="Montserrat" font-size="48" font-weight="bold" fill="#c9a959" text-anchor="middle">HT</text>
+                        </svg>
+                        <div class="footer-logo-text">Hailong Tengda</div>
+                    </div>
+                    <p>Beijing Hailong Tengda Labor Service Co., Ltd. - Your trusted partner for professional labor services, HR management, and innovative mobile solutions.</p>
                     <div class="footer-social">
-                        <a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
-                        <a href="#" class="social-link" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
-                        <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="none" stroke="currentColor" stroke-width="2"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/></svg>
+                        </a>
                     </div>
                 </div>
+                
                 <div class="footer-column">
                     <h4>Quick Links</h4>
-                    <div class="footer-links">
-                        <a href="index.html">Home</a>
-                        <a href="services.html">Services</a>
-                        <a href="culture.html">Culture</a>
-                        <a href="news.html">News</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
                 </div>
+                
                 <div class="footer-column">
                     <h4>Services</h4>
-                    <div class="footer-links">
-                        <a href="services.html#hr">HR Services</a>
-                        <a href="services.html#consulting">Business Consulting</a>
-                        <a href="services.html#mobile-app">Mobile App</a>
-                        <a href="services.html#training">Training</a>
-                    </div>
+                    <ul class="footer-links">
+                        <li><a href="services.html">HR Management</a></li>
+                        <li><a href="services.html">Labor Services</a></li>
+                        <li><a href="services.html">Business Consulting</a></li>
+                        <li><a href="services.html">Training Programs</a></li>
+                        <li><a href="services.html">Mobile Solutions</a></li>
+                    </ul>
                 </div>
+                
                 <div class="footer-column">
-                    <h4>Contact</h4>
-                    <div class="footer-links">
-                        <a href="mailto:support@hailongtengda.com">support@hailongtengda.com</a>
-                        <a href="mailto:yuhailong@hailongtengda.com">yuhailong@hailongtengda.com</a>
-                        <a href="https://hailongtengda.com">hailongtengda.com</a>
+                    <h4>Contact Us</h4>
+                    <div class="footer-contact-item">
+                        <svg viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <p>Room 208, 2nd Floor, Building 1, Courtyard 1, 400m south of gas station, Dashiling Village, Mujia Yu Town, Miyun District, Beijing</p>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                        <p>support@hailongtengda.com</p>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                        <p>yuhailong@hailongtengda.com</p>
                     </div>
                 </div>
             </div>
+            
             <div class="footer-bottom">
                 <p>&copy; 2026 Beijing Hailong Tengda Labor Service Co., Ltd. All rights reserved.</p>
                 <div class="footer-legal">
@@ -323,6 +501,23 @@
         </div>
     </footer>
 
+    <!-- Cookie Banner -->
+    <div class="cookie-banner">
+        <div class="cookie-content">
+            <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies. <a href="privacy-policy.html">Learn more</a></p>
+            <div class="cookie-buttons">
+                <button class="cookie-btn cookie-btn-accept">Accept</button>
+                <button class="cookie-btn cookie-btn-decline">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" aria-label="Scroll to top">
+        <svg viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
+    </div>
+
+    <!-- Scripts -->
     <script src="js/main.js"></script>
 </body>
 </html>

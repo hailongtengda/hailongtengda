@@ -1,126 +1,184 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Latest news and updates from Beijing Hailong Tengda Labor Service Co., Ltd. - Industry insights, company updates, and more.">
+    <meta name="description" content="Latest news and updates from Beijing Hailong Tengda Labor Service Co., Ltd.">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="News & Updates - Hailong Tengda">
+    <meta property="og:title" content="News & Updates | Beijing Hailong Tengda">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://hailongtengda.com/news">
     <link rel="canonical" href="https://hailongtengda.com/news">
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-    <title>News & Updates - Hailong Tengda Labor Service Co., Ltd.</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>News & Updates | Beijing Hailong Tengda Labor Service Co., Ltd.</title>
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <div class="loader"><div class="spinner"></div></div>
-    <nav class="navbar" role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo"><img src="images/logo.svg" alt="Hailong Tengda Logo"></a>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="services.html" class="nav-link">Services</a></li>
-                <li><a href="culture.html" class="nav-link">Culture</a></li>
-                <li><a href="news.html" class="nav-link active">News</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="mobile-menu-btn" aria-label="Toggle menu"><span></span><span></span><span></span></div>
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>Loading...</p>
         </div>
-    </nav>
-    <section class="hero" style="min-height: 60vh;">
-        <div class="hero-background"></div>
-        <div class="hero-particles"></div>
-        <div class="hero-content">
-            <h1 class="hero-title">News & Updates</h1>
-            <p class="hero-subtitle">Stay Informed with Our Latest</p>
-            <p class="hero-description">Discover the latest company news, industry insights, and important updates from Hailong Tengda.</p>
+    </div>
+
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <svg viewBox="0 0 200 200" width="60" height="60">
+                    <circle cx="100" cy="100" r="95" fill="#1a2a4a"/>
+                    <circle cx="100" cy="100" r="88" fill="none" stroke="#c9a959" stroke-width="3"/>
+                    <text x="100" y="115" font-family="Montserrat" font-size="48" font-weight="bold" fill="#c9a959" text-anchor="middle">HT</text>
+                </svg>
+                <div class="logo-text">Hailong Tengda<span>Labor Service</span></div>
+            </a>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="culture.html" class="nav-link">Culture</a></li>
+                    <li><a href="news.html" class="nav-link active">News</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-toggle"><span></span><span></span><span></span></div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1>News & Updates</h1>
+            <p>Stay informed about our latest developments, industry insights, and company announcements</p>
+            <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>News</span></div>
         </div>
     </section>
-    <section class="section section-light">
+
+    <section class="section">
         <div class="container">
             <div class="news-grid">
-                <article class="news-card animate-on-scroll">
-                    <div class="news-image"></div>
+                <article class="news-card scroll-animate delay-100">
+                    <div class="news-image"><div class="news-date">Jan 15, 2026</div></div>
                     <div class="news-content">
-                        <span class="news-date">January 15, 2026</span>
-                        <h3 class="news-title">Launching Our New Mobile Application</h3>
-                        <p class="news-excerpt">We are excited to announce the launch of our innovative mobile management application on Google Play and Apple App Store.</p>
-                        <a href="#" class="read-more">Read More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <span class="news-category">Announcement</span>
+                        <h3>Launch of New Mobile Management Platform</h3>
+                        <p>We are excited to announce the launch of our revolutionary mobile management platform designed for modern enterprises. This innovative solution provides comprehensive workforce management tools, real-time analytics, and seamless integration capabilities.</p>
+                        <a href="#" class="news-link">Read More <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
                     </div>
                 </article>
-                <article class="news-card animate-on-scroll">
-                    <div class="news-image"></div>
+                
+                <article class="news-card scroll-animate delay-200">
+                    <div class="news-image"><div class="news-date">Jan 10, 2026</div></div>
                     <div class="news-content">
-                        <span class="news-date">December 20, 2025</span>
-                        <h3 class="news-title">Expanding Services to European Markets</h3>
-                        <p class="news-excerpt">Hailong Tengda announces strategic expansion plans to serve clients across European markets with our comprehensive labor solutions.</p>
-                        <a href="#" class="read-more">Read More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <span class="news-category">Industry Insights</span>
+                        <h3>Trends in Modern Labor Management</h3>
+                        <p>Explore the latest trends shaping the labor management industry, including digital transformation, remote work solutions, and compliance automation. Learn how businesses can adapt to these changing landscapes.</p>
+                        <a href="#" class="news-link">Read More <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
                     </div>
                 </article>
-                <article class="news-card animate-on-scroll">
-                    <div class="news-image"></div>
+                
+                <article class="news-card scroll-animate delay-300">
+                    <div class="news-image"><div class="news-date">Jan 05, 2026</div></div>
                     <div class="news-content">
-                        <span class="news-date">November 10, 2025</span>
-                        <h3 class="news-title">Achieving ISO Certification</h3>
-                        <p class="news-excerpt">Our commitment to quality has been recognized with ISO certification, demonstrating our dedication to international standards.</p>
-                        <a href="#" class="read-more">Read More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <span class="news-category">Company Update</span>
+                        <h3>Expanding Services to Global Markets</h3>
+                        <p>Beijing Hailong Tengda announces strategic expansion plans to serve international clients with localized solutions. Our commitment to excellence now extends to businesses worldwide.</p>
+                        <a href="#" class="news-link">Read More <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
                     </div>
                 </article>
-                <article class="news-card animate-on-scroll">
-                    <div class="news-image"></div>
+                
+                <article class="news-card scroll-animate delay-400">
+                    <div class="news-image"><div class="news-date">Dec 28, 2025</div></div>
                     <div class="news-content">
-                        <span class="news-date">October 5, 2025</span>
-                        <h3 class="news-title">Industry Insights: Labor Service Trends 2026</h3>
-                        <p class="news-excerpt">Read our comprehensive analysis of emerging trends in the labor service industry and their implications for businesses.</p>
-                        <a href="#" class="read-more">Read More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <span class="news-category">Technology</span>
+                        <h3>Mobile App Update: Version 2.0 Released</h3>
+                        <p>Our mobile application has been upgraded with new features including enhanced HR management tools, improved analytics dashboard, and better user experience. Update now available on Google Play and App Store.</p>
+                        <a href="#" class="news-link">Read More <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
                     </div>
                 </article>
-                <article class="news-card animate-on-scroll">
-                    <div class="news-image"></div>
+                
+                <article class="news-card scroll-animate delay-500">
+                    <div class="news-image"><div class="news-date">Dec 20, 2025</div></div>
                     <div class="news-content">
-                        <span class="news-date">September 12, 2025</span>
-                        <h3 class="news-title">New Partnership Announcements</h3>
-                        <p class="news-excerpt">We are pleased to announce new strategic partnerships that enhance our service capabilities and market reach.</p>
-                        <a href="#" class="read-more">Read More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <span class="news-category">Partnership</span>
+                        <h3>New Strategic Partnership Announced</h3>
+                        <p>We are pleased to announce a new strategic partnership that will enhance our service offerings and expand our capabilities in workforce management solutions.</p>
+                        <a href="#" class="news-link">Read More <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
                     </div>
                 </article>
-                <article class="news-card animate-on-scroll">
-                    <div class="news-image"></div>
+                
+                <article class="news-card scroll-animate delay-600">
+                    <div class="news-image"><div class="news-date">Dec 15, 2025</div></div>
                     <div class="news-content">
-                        <span class="news-date">August 25, 2025</span>
-                        <h3 class="news-title">Team Building Event Success</h3>
-                        <p class="news-excerpt">Highlights from our annual team building event that reinforced our commitment to excellence and collaboration.</p>
-                        <a href="#" class="read-more">Read More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <span class="news-category">Events</span>
+                        <h3>Participation in International Business Forum</h3>
+                        <p>Beijing Hailong Tengda participated in the International Business Forum 2025, sharing insights on labor service innovation and digital transformation in the modern workplace.</p>
+                        <a href="#" class="news-link">Read More <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
                     </div>
                 </article>
             </div>
         </div>
     </section>
-    <section class="section section-dark">
-        <div class="container text-center">
-            <div class="section-title animate-on-scroll">
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content scroll-animate">
                 <h2>Subscribe to Our Newsletter</h2>
                 <p>Stay updated with our latest news, insights, and announcements.</p>
+                <div class="cta-buttons"><a href="contact.html" class="btn btn-primary">Contact Us</a></div>
             </div>
-            <form class="contact-form" style="max-width: 500px; margin: 0 auto;" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
-                <div class="form-group">
-                    <input type="email" placeholder="Your email address" required style="color: var(--text-dark);">
-                </div>
-                <button type="submit" class="btn btn-primary" style="width: 100%;">Subscribe</button>
-            </form>
         </div>
     </section>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <img src="images/logo.svg" alt="Hailong Tengda">
+                    <div class="footer-logo">
+                        <svg viewBox="0 0 200 200" width="50" height="50"><circle cx="100" cy="100" r="95" fill="#1a2a4a"/><circle cx="100" cy="100" r="88" fill="none" stroke="#c9a959" stroke-width="3"/><text x="100" y="115" font-family="Montserrat" font-size="48" font-weight="bold" fill="#c9a959" text-anchor="middle">HT</text></svg>
+                        <div class="footer-logo-text">Hailong Tengda</div>
+                    </div>
                     <p>Beijing Hailong Tengda Labor Service Co., Ltd. - Your trusted partner for professional labor services and innovative mobile solutions.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z"/></svg></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="none" stroke="currentColor" stroke-width="2"/></svg></a>
+                    </div>
                 </div>
-                <div class="footer-column"><h4>Quick Links</h4><div class="footer-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="culture.html">Culture</a><a href="news.html">News</a><a href="contact.html">Contact</a></div></div>
-                <div class="footer-column"><h4>Services</h4><div class="footer-links"><a href="services.html#hr">HR Services</a><a href="services.html#mobile-app">Mobile App</a><a href="services.html#consulting">Consulting</a></div></div>
-                <div class="footer-column"><h4>Contact</h4><div class="footer-links"><a href="mailto:support@hailongtengda.com">support@hailongtengda.com</a><a href="mailto:yuhailong@hailongtengda.com">yuhailong@hailongtengda.com</a></div></div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">HR Management</a></li>
+                        <li><a href="services.html">Labor Services</a></li>
+                        <li><a href="services.html">Business Consulting</a></li>
+                        <li><a href="services.html">Training Programs</a></li>
+                        <li><a href="services.html">Mobile Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <div class="footer-contact-item">
+                        <svg viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
+                        <p>Room 208, 2nd Floor, Building 1, Courtyard 1, 400m south of gas station, Dashiling Village, Mujia Yu Town, Miyun District, Beijing</p>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                        <p>support@hailongtengda.com</p>
+                    </div>
+                </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 Beijing Hailong Tengda Labor Service Co., Ltd. All rights reserved.</p>
@@ -128,6 +186,18 @@
             </div>
         </div>
     </footer>
+
+    <div class="cookie-banner">
+        <div class="cookie-content">
+            <p>We use cookies to enhance your experience. <a href="privacy-policy.html">Learn more</a></p>
+            <div class="cookie-buttons">
+                <button class="cookie-btn cookie-btn-accept">Accept</button>
+                <button class="cookie-btn cookie-btn-decline">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-top" aria-label="Scroll to top"><svg viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg></div>
     <script src="js/main.js"></script>
 </body>
 </html>
